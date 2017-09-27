@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 @Test
 public class MyFirstTest {
-    public static void main(String[] args) {
+    public void start () {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lena\\Documents\\GitHub\\test-repository\\driver_chrome\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
